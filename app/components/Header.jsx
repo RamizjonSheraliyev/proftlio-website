@@ -37,7 +37,7 @@ const Header = () => {
         className="max-w-2xl mx-auto font-Ovo"
       >
         I Am Full-stack developer, Frotend developer and Backend Uzbekiston
-        3year's of experience.
+        2year's of experience.
       </motion.p>
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
         <motion.a
@@ -47,7 +47,7 @@ const Header = () => {
           href="#contact"
           className="px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent"
         >
-          Conact Me <Image src={assets.right_arrow} alt="" className=" w-4" />
+          Contact Me <Image src={assets.right_arrow} alt="" className=" w-4" />
         </motion.a>
         <motion.a
           initial={{ y: 30, opacity: 0 }}
